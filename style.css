@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'sinkin_sans400_regular';
+    src: url('fontsinkin/SinkinSans-400Regular-webfont.eot');
+    src: url('fontsinkin/SinkinSans-400Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontsinkin/SinkinSans-400Regular-webfont.woff2') format('woff2'),
+         url('fontsinkin/SinkinSans-400Regular-webfont.woff') format('woff'),
+         url('fontsinkin/SinkinSans-400Regular-webfont.ttf') format('truetype'),
+         url('fontsinkin/SinkinSans-400Regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    font-family: "sinkin_sans400_regular",sans-serif;
+    margin:0px;
+}
+
+.photoET
+{
+    width:100%;
+    height:400px;
+}
+
+section
+{
+    width:75%;
+    padding: 20px;
+    width:70%;
+}
+
+section h1, h2, h3 , h4
+{
+    text-transform: uppercase;
+    padding-left:100px;
+    padding-right:100px;
+    font-weight:bold;
+}
+
+h1
+{
+    font-size:2.2em;
+    padding-top:30px;
+    margin-top:0px;
+}
+
+.intro
+{
+    margin-bottom:50px;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size:0.8em;
+}
+
+.pucescv {
+    margin-bottom: 50px;
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 100px;
+    font-size: 0.8em;
+    list-style-type: circle;
+}
+
+.photob
+{
+    width:33%;
+    margin-bottom:10px;
+}
+
+#bookp 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+
+.identification 
+{
+    font-size: 1em;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+
+/* Menu de Navigation + Présentation + photo de profil */
+
+#contener
+ {
+    display: flex;
+    background-color: #204C58;
+    justify-content: center;
+    width: 23.5%;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+    position: fixed;
+    left: 75%;
+    align-items: center;
+    color: white;
+}
+
+.element11 {
+    display:block;
+    width: 250px;
+    border-radius: 100px;
+    margin-top:auto;
+    margin:auto;
+}
+
+.element21
+ {
+    text-align: center;
+}
+
+.element31
+ {
+    display:block;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+
+.element41
+ {
+    list-style-type: none;
+    font-size: 0.8em;
+    text-align:center;
+    color:white;
+}
+
+nav a:hover 
+{
+    color: #760001
+}
+
+/* contacts */
+
+#contacts
+{
+    flex-direction:row;
+    list-style-type:none;
+}
